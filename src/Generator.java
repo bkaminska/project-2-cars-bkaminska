@@ -37,7 +37,7 @@ public class Generator {
         return group;
     }
 
-    public static String getMemberName(char member){
+   public static Character getMemberName(char member){
         String name = "n/a";
         switch (member){
             case MAN : name = "Man"; break;

@@ -13,8 +13,8 @@ In this project, you will develop a Java program that demonstrates you can:
 # Teams
 You may partner with another student on this project to discuss code and strategies for completing the various parts of the assignment. You may share code with your partner, but you should still write much of your own code in your own repository. You should still update your repository (by pushing) incrementally as you make progress. It is up to teammates to ensure that their partner adheres to the <a href="https://www.american.edu/academics/integrity/code.cfm">American University Honor Code.</a> You may use [pair programming](https://en.wikipedia.org/wiki/Pair_programming), however, you must each take turns in the driver role on your own laptop. I should see commits and a submission on Github for each of you to get full credit for this assignment. If you decide to work with a partner, modify the statement below:
 
-- [x] I worked on my own.
-- [ ] I worked with *INSERT PARTNER NAME* on this project. The parts I worked on were: *EDIT THIS*
+- [ ] I worked on my own.
+- [x] I worked with *Rebecca Lipton* on this project. The parts I worked on were: *EDIT THIS*
 
 ## Step 1 - Take the Moral Machine Survey
 Go to the [Moral Machine site](https://www.moralmachine.net/) and watch the video to understand the dilemma. A driverless car must choose between the lesser of two evils, such as killing two passengers or five pedestrians. As an outside observer, you will judge which outcome you think is more acceptable. You can then see how your responses compare with those of other people. 
@@ -25,7 +25,7 @@ After you have watched the video, click the first red button to **Start Judging*
 
 **Deliverable 1:** No judgement from us, but we need to document that you participated. Click the share button to get a perma-link to your results, then edit this document so that the perma-link appears below. We will not look at the results, but we will verify that the link works to ensure that you have taken the survey.
 
-My perma-link: *EDIT THIS*
+My perma-link: *https://www.moralmachine.net/results/-1879564660*
 
 ## Step 2 - Review the Methods in the Generator Class
 In your src folder, we have provided you with a class called `Generator`. You will not alter this class, and it does not contain a main method, but you can use the other methods provided for you to complete this assignment.
@@ -42,7 +42,7 @@ This method also randomly determines if there are legal complications present:
 
 This method can be invoked outside the class using `Generator.getScenario()`, similar to the other method calls we have seen in this course, such as `Math.pow(a,b)`.  
 
-In the `Generator` class, there is also public static method `getGroup` that takes no arguments an returns a String.
+In the `Generator` class, there is also public static method `getGroup` that takes no arguments and returns a String.
 
 This method will begin by randomly determining how many people or animals will be in this group between 1 and 5 (a group of 0 is not allowed). For each person/animal in this group, this method will assign a character value representing what that group member is. The possible group members are:
 
